@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0 auto; 
+    padding: 0; 
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar-container a { 
+
+    color: white; 
+    width: 30px; 
+    line-height: 35px;
+}
+.item-container{
+    text-align: center;
+}
+.item-container p{
+    width: 500px;
+    text-align: left;
+}
+header {
+    height: 4em;
+    width: 100%; 
+    background-color:#964ef5;
+}
+.navbar-container {
+    padding: 14px; 
+    width: 59.38%;  
+    height: 44px; 
+    display: flex; 
+    justify-content: space-between; 
+}
+.sign-form {
+    display: flex; 
+    flex-flow: column;
+}
+.sign-form h1 {
+    margin-bottom: 40px; 
+    margin-top: 40px;
+}
+.text-input {
+    font-size: 16px; 
+    line-height: 32px; 
+    border-radius: 5px; 
+    border: .5px solid lightgray; 
+    padding-left: 5px;
+}
+.text-input:focus {
+    border: .5px solid black;
+}
+.sign-form button { 
+    font-size: 15px; width: 125px; 
+    height: 32px; 
+    background-color: #964ef5; 
+    border: none; 
+    border-radius: 25px; 
+    color: white;
+    transition: .2s all ease;
+}
+.sign-form button:hover { 
+    transform: scale(1.1);
+}
+.error {
+    font-size: 14px; 
+    color: lightcoral;
+}
+.undefined-container { 
+    margin-top: 40px;
+    height: 150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 1180px;
+}
+.administration-table {
+    width: 400px;
+    margin-left: 40%;
+    margin-top: 40px;
+    background-color: #964ef5;
+    color: white;
+    padding: 5px;
+}
+caption {
+    background-color: lightgray; 
+    color: black; 
+    text-align: center;
+}
+.delete {
+    background-image: url("assets/delete.png");
+    background-color: inherit;
+    background-size: 20px;
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+.change-link {
+    color: white;
+}
+.portfolio{
+    margin-left: 28.5em; 
+}
+.current_port{
+    border: 1px solid #ecebed ;
+    display: inline-block;
+    padding: 14px;
+}
+.portfolio__title{
+    color: white;
+    background-color: #b17cf7;
+    padding: 5px;
+}
+.portfolio__description{
+    padding: 5px;
+}
+.contacts{
+    margin-left: 28.5em;
+}
+.service{
+    margin-left: 28.5em;
+}
+.grid{
+    margin-left: 28.5em;
+}
+.grid-row{
+    border: 1px solid #ecebed ;
+    display: inline-block;
+    padding: 14px;
+    margin-bottom: 10px;
+}
+.news__title{
+    color: white;
+    background-color: #b17cf7;
+    padding: 5px;
+}
+.news__description{
+    padding: 5px;
+}
+.error{
+    text-align: center;
+}
+.error h1{
+    font-size: 350px;
+    color: #E8E8E8;
+}
+.error p{
+    font-size: 36px;
+    color: #964ef5;
+    opacity: 60%;
+}
+.add {
+    text-decoration: none; 
+    color: #bf90fc; 
+    border: .5px solid #bf90fc; 
+    padding: 5px; 
+    line-height: 44px;
+}
